@@ -100,22 +100,44 @@ h4 {
     transition: 0.1s;
 }
 
-.tela2{
+.tela2 {
     height: 100vh;
     background-color: #200d2c;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-} 
 
-.texto2{
-    grid-row: 2/3;
-   grid-column: 2/2;
-    justify-content: left;
-    align-items: center
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 50px;
 }
 
-.img{
-    grid: ;
-    align-items: center
+.texto2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto2 h2 {
+    color: #9d6cff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.texto2 p {
+    color: #c7b3e6;
+    font-size: 26px;
+    line-height: 1.7;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.texto2 span {
+    color: #bb86fc;
+    font-weight: bold;
+}
+.img2 img {
+    width: 600px;
+    border-radius: 20px;
 }
